@@ -1,0 +1,53 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go specific
+*.test
+*.out
+/vendor/
+
+# Output directories
+bin/
+dist/
+
+# Go workspace file
+go.work
+
+# Dependency directories
+/pkg/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+coverage.txt
+*.cover
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - GoLand
+.idea/
+*.iml
+
+# IDE - vim/neovim
+*.swp
+*.swo
+*~
+
+# Local development files
+.env
+.env.local
+*.log
+/tmp
+
